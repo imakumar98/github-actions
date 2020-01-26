@@ -12,8 +12,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+
     - name: Deployment started here
-    - run: Deployment process running...
+    - run: echo Deployment processing...
       
     - name: deployment process running 2...
       run: |
