@@ -1,6 +1,10 @@
 name: App name will come here
 
-on: [push]
+on:
+  push:
+    branches:
+    - master
+
 
 jobs:
   build:
